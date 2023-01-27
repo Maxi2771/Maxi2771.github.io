@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confederación Suiza Computacion</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="image/bx-menu-alt-right.svg" alt="" class="Moon">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#Especializaciones">Especializaciones</a>
+            <a href="#Galeria">Galeria</a>
+            <a href="#Contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="Titulo">Escuela Tecnica N°26 Confederación Suiza Computación</h1>
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </header>
+    <main>
+        <section class="especializacion contenedor" id="Especializaciones">
+            <h2 class="subtitulo">Nuestras especializaciones</h2>
+            <div class="contenedor-Especializaciones">
+                <img src="image/Computadora.jpg" alt="">
+                <div class="checklist-Especializaciones">
+                    <div class="Especializaciones">
+                        <h3 class="n-Especializaciones"><span class="number">1</span>Informatica</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem commodi maiores amet, quam minima molestias odio molestiae dolorum quo.</p>
+                    </div>
+                    <div class="Especializaciones">
+                        <h3 class="n-Especializaciones"><span class="number">2</span>Electronica</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem commodi maiores amet, quam minima molestias odio molestiae dolorum quo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="Galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-Galeria">
+                    <a href="#img1"><img src="image/Computacion.jpg"  alt="" class="img-galeria"></a>
+                    <a href="#img2"><img src="image/Computacion 2.jpg"alt="" class="img-galeria"></a>
+                    <a href="#img3"><img src="image/Automotores.jpg"  alt="" class="img-galeria"></a>
+                    <a href="#img4"><img src="image/Automotores 2.jpg"alt="" class="img-galeria"></a>
+                </div>
+            </div>
+        </section>
+        <article class="light-box" id="img1">
+            <a href="#img4" class="next"><i class='bx bx-left-arrow-alt'></i></a>
+            <img src="/image/Computacion.jpg" alt="">
+            <a href="#img2" class="next"><i class='bx bx-right-arrow-alt' ></i></a>
+            <a href="#Galeria" class="close"><img src="/image/bx-x.svg" alt=""></a>
+        </article>
+        <article class="light-box" id="img2">
+            <a href="#img2" class="next"><i class='bx bx-left-arrow-alt'></i></a>
+            <img src="/image/Computacion 2.jpg" alt="">
+            <a href="#img3" class="next"><i class='bx bx-right-arrow-alt' ></i></a>
+            <a href="#Galeria" class="close"><img src="/image/bx-x.svg" alt=""></a>
+        </article>
+        <article class="light-box" id="img3">
+            <a href="#img2" class="next"><i class='bx bx-left-arrow-alt'></i></a>
+            <img src="/image/Automotores.jpg" alt="">
+            <a href="#img4" class="next"><i class='bx bx-right-arrow-alt' ></i></a>
+            <a href="#Galeria" class="close"><img src="/image/bx-x.svg" alt=""></a>
+        </article>
+        <article class="light-box" id="img4">
+            <a href="#img3" class="next"><i class='bx bx-left-arrow-alt'></i></a>
+            <img src="/image/Automotores 2.jpg" alt="">
+            <a href="#img1" class="next"><i class='bx bx-right-arrow-alt' ></i></a>
+            <a href="#Galeria" class="close"><img src="/image/bx-x.svg" alt=""></a>
+        </article>
+    </main>
+    <footer id="Contacto">
+        <div class="contenedor footer-content">
+            <div class="contac-us">
+                <h2 class="brand">Escuela Tecnica Confederacion Suiza</h2>
+                <p>Inscribete en nuestra escuela y cumple tus sueños</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/lasuizacompu" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook bx-tada' ></i>
+                </a>
+                <a href="https://www.instagram.com/lasuizacompu"target="_blank"  class="social-media-icon">
+                    <i class='bx bxl-instagram bx-tada' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/close.js"></script>
+</body>
+</html>
